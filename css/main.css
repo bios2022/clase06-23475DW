@@ -1,0 +1,194 @@
+h1{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    color:red;
+}
+h2,h3{
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    color: black;
+}
+p{
+    font-family:Helvetica, Arial, sans-serif;
+    
+}
+
+header {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+header ul li {
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-left: 90px;
+  
+}
+header ul a {
+    font-weight:550;
+    font-size:16px;
+    padding:10px;
+    font-family:Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul a:hover {
+    color: red;
+}
+
+nav{
+    text-align: center;
+    background-color: #000;
+    border-bottom: 4px solid red;
+}
+
+#slide{
+    display: flex;
+    justify-content: center;
+    border:black;
+}
+
+#slide img{
+    border: 2px solid #ccc;
+}
+
+.categorias img{
+    border: 2px solid #ccc;
+}
+
+section ul {
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+}
+section li {
+    padding-top: 10px;
+    margin: 20px;
+    list-style: none;
+}
+
+footer{
+    background-color: black;
+    border-top: 4px solid red;
+    
+    display: flex;
+    justify-content: flex-end;
+    /*text-align: center;*/
+}
+
+footer ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+footer li  {
+    list-style: none;
+    padding-top:10px;
+}
+
+footer li a {
+    font-weight:300;
+    font-size:14px;
+    padding:10px;
+    font-family:Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+#articulo img{
+    padding-left: 400px;
+}
+
+.lista_precio{
+    float: right;
+    padding-right: 800px;
+}
+
+.lista_tecnica{
+    text-align:left;
+    padding-left: 400px;
+    list-style: square;
+    margin: 50px;;
+}
+
+table{
+    margin: auto;
+}
+
+#comparativa{
+    text-align: center;
+}
+#comparativa td{
+    padding: 20px;
+}
+
+main .eventos p{
+    float: right;
+    padding-right: 200px;
+}
+
+.categorias img{
+    transition: transform .2s;
+}
+
+.categorias img:hover{
+    transform: scale(1.1);
+    border: 2px solid black ;
+}
+
+.news img{
+    padding-left: 400px;
+}
+#contenido img{
+    padding-left:700px ;
+}
+/*#contacto{
+    text-align: center;
+}*/
+
+/*///////////////////////////*/
+.card {
+    text-align: center;
+    font-family: arial;
+    transition: transform .2s;
+    border: 2px solid #ccc;
+  }
+
+.card:hover{
+    transform: scale(1.03);
+    border: 2px solid black ;
+}
+
+.precio {
+    color: grey;
+    font-size: 22px;
+  }
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+  }
+  
+.card button:hover {
+    opacity: 0.7;
+  }
+
+
